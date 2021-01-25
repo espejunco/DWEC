@@ -26,3 +26,7 @@ Se podrán registrar tanto perfiles de clientes como perfiles de fotógrafos.
 Se subirán fotos y se podrán eliminar.
 Será posible buscar información según distintos contenidos.
 Existirá la posibilidad de comentar y valorar las publicaciones.
+
+**Api**: Strapi
+
+**Figma**: https://www.figma.com/file/LH0yjfMDfDmef2eqnf00ot/Zoomel?node-id=0%3A1
