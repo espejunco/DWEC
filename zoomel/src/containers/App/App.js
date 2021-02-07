@@ -4,22 +4,22 @@ import axios from 'axios';
 class App extends React.Component {
   // State of your application
   state = {
-    restaurants: [],
+    fotografo: [],
     error: null,
   };
 
-  // Fetch your restaurants immediately after the component is mounted
+  // Fetch your fotografos immediately after the component is mounted
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/restaurants');
-      this.setState({ restaurants: response.data });
+      const response = await axios.get('http://localhost:1337/fotografos');
+      this.setState({ fotografos: response.data });
     } catch (error) {
       this.setState({ error });
     }
   };
 
   render() {
-    const { error, restaurant } = this.state;
+    const { error, fotografo } = this.state;
 
     // Print errors if any
     if (error) {
@@ -29,8 +29,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <ul>
-          {this.state.restaurants.map(restaurant => (
-            <li key={restaurant.id}>{restaurant.name}</li>
+          {this.state.fotografos.map(fotografo => (
+            <li key={fotografo.id}>{fotografo.name}</li>
           ))}
         </ul>
       </div>

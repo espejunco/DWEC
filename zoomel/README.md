@@ -1,13 +1,29 @@
+# Zoomel
+**Proyecto 2º Trimestre DWEC**
 
-## Available Scripts
+**Enlace a Trello**
+https://trello.com/invite/b/eTYTtwhp/43dfcc50dede3735aa06452356bf0c89/zoomel
 
-In the project directory, you can run:
+**Descripción**
 
-### `yarn start`
+Zoomel es una aplicación nueva y original, su función es conectar a clientes y a fotógrafos de forma fácil e intuitiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Fótografos de todo el mundo se registrarán para mostrar sus mejores obras y conseguir clientes, los mismos clientes tendrán la facilidad de encontrar lo que necesiten de forma sencilla y sin perder el tiempo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+La aplicación tendrá distintos métodos de búsqueda, ya sea buscando al fotógrafo, encontrando por la categoría de foto deseada o explorando por una vista trending(que aparecerán las mejores fotos premiadas).
+
+Toda foto llevará a la carta del autor, que expondrá toda la información necesaria para que contacten con él rápidamente(fotos, horarios, precios y disponibilidad tanto horaria como geográfica).
+
+Por último se espera crear una comunidad de apasionados por el arte de la fotografía que utilicen Zoomel para comunicarse y expresarse de forma fácil.
+
+**Objetivo**
+
+Crear un lugar dónde puedas encontrar a todo tipo de personas apasionadas por la fotografía, para inspirarte, para contratar y para vender tus trabajos.
+
+**Funcionalidad**
+
+Se podrán registrar tanto perfiles de clientes como perfiles de fotógrafos.
+Se subirán fotos y se podrán eliminar.
+Será posible buscar información según distintos contenidos.
+Existirá la posibilidad de comentar y valorar las publicaciones.
 
