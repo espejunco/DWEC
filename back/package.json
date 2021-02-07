@@ -1,5 +1,5 @@
 {
-  "name": "zoomel-base",
+  "name": "back",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -19,15 +19,13 @@
     "strapi-plugin-users-permissions": "3.4.6",
     "strapi-plugin-email": "3.4.6",
     "strapi-plugin-upload": "3.4.6",
-    "strapi-connector-bookshelf": "3.4.6",
-    "knex": "<0.20.0",
-    "sqlite3": "5.0.0"
+    "strapi-connector-mongoose": "3.4.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "ffd050c9-d308-4eef-94f1-b48425b954de"
+    "uuid": "e3ffc3b2-fdf1-46a3-99b1-e05c123734ec"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
