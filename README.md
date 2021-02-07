@@ -27,6 +27,4 @@ Se subirán fotos y se podrán eliminar.
 Será posible buscar información según distintos contenidos.
 Existirá la posibilidad de comentar y valorar las publicaciones.
 
-**Estructura**
 
-![ups](/docs/estructura.png)
